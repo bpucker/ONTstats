@@ -1,7 +1,7 @@
 ### Boas Pucker ###
 ### pucker@uni-bonn.de ###
 
-__version__ = "v0.1"
+__version__ = "v0.11"
 
 __usage__ = """
 			Evaluation of all ONT sequencing runs (""" + __version__ + """)
@@ -114,16 +114,16 @@ def generate_output_figure( dataset, figfilename, parameter ):
 	
 	df = pd.DataFrame( data, columns=[ 'Sample' ] + list( map( str, range( max_len ) ) )[1:] )
 	if parameter == "output":
-		ax = df.plot( x="Sample", kind="bar", stacked=True, title=parameter, legend=False )
+		ax = df.plot( x="", kind="bar", stacked=True, title=parameter, legend=False )
 		ax.set_ylabel( "Output [Gbp]" )
 	elif parameter == "reads":
-		ax = df.plot( x="Sample", kind="bar", stacked=True, title=parameter, legend=False )
+		ax = df.plot( x="", kind="bar", stacked=True, title=parameter, legend=False )
 		ax.set_ylabel( "thousands reads" )
 	elif parameter == "N50":
-		ax = df.plot( x="Sample", kind="bar", stacked=True, title=parameter, legend=False )
+		ax = df.plot( x="", kind="bar", stacked=True, title=parameter, legend=False )
 		ax.set_ylabel( "N50[kbp]" )
 	else:
-		ax = df.plot( x="Sample", kind="bar", stacked=True, title=parameter, legend=False )
+		ax = df.plot( x="", kind="bar", stacked=True, title=parameter, legend=False )
 	plt.savefig( figfilename, bbox_inches='tight', dpi=300 )
 
 
