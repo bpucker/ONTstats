@@ -1,6 +1,6 @@
 # ONTstats
 ## Summary
-This repository contains scripts to calculate statistics of the nanopore sequencing data produced in the [PuckerLab](https://www.izmb.uni-bonn.de/en/pbb).
+This repository contains scripts to calculate statistics of the nanopore sequencing data produced in the [PuckerLab](https://www.izmb.uni-bonn.de/en/pbb) on a P2 Solo.
 
 ## Usage
 Python3 and the library matplotlib are required to run this analysis.
@@ -11,7 +11,13 @@ Python3 and the library matplotlib are required to run this analysis.
   --out          STR     Output directory
   --nomasking            Inactivates the masking of flow cell IDs
 ```
-		
+
+Details about the arguments:
+`--in` specifies the input file which contains the details about each nanopore sequencing run.
+
+`--out` specifies the output folder which will contain the statistic figures. If the folder does not exist, it will be created.
+
+`--nomasking` deactivates the masking of flow cell IDs. Default: replacement of IDs by running numbers.
 
 ## References
 
