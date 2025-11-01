@@ -1,0 +1,4 @@
+#Run	Sample	UniqueID	FlowCell	FlowCellType	Output[Gbp]	ReadN50[kb]	NumerOfReads	Date	SourceOfDNA	Comments
+RP001_XX_species1	P001	abcd1234	PBG12345	R10.4.1	67.44	32.8	3806986	2025-11-01	x	slotA
+RP002_XX_species2	P002	defg4567	PBG23456	R10.4.1	56.15	30.3	3810323	2025-11-01	x	slotA
+RP003_XX_species3	P003	12345abc	PBG34567	R10.4.1	29.79	32.5	2432035	2025-11-01	x	slotB
