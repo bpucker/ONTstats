@@ -19,5 +19,8 @@ Details about the arguments:
 
 `--nomasking` deactivates the masking of flow cell IDs. Default: replacement of IDs by running numbers.
 
+## Example data
+The example data set allows to test the Python script. Flow cell IDs and values have been altered in the exmaple data set.
+
 ## References
 
