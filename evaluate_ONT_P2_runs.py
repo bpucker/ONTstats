@@ -1,7 +1,7 @@
 ### Boas Pucker ###
 ### pucker@uni-bonn.de ###
 
-__version__ = "v0.11"
+__version__ = "v0.12"
 
 __usage__ = """
 			Evaluation of all ONT sequencing runs (""" + __version__ + """)
@@ -79,7 +79,7 @@ def load_data( input_file, masking ):
 						try:
 							fcid = fc_mapping_table[ parts[3] ]
 						except KeyError:
-							fcid = "FC" + str( counter )
+							fcid = "FC" + ( str( counter ).zfill(2) )
 							fc_mapping_table.update( { parts[3]: fcid } )
 							counter += 1
 					else:
