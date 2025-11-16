@@ -24,3 +24,4 @@ The example data set allows to test the Python script. Flow cell IDs and values 
 
 ## References
 
+de Oliveira, J. A. V. S.; Choudhary, N.; Meckoni, S. N.; Nowak, M. S.; Hagedorn, M.; Pucker, B. (2025). Cookbook for Plant Genome Sequences. doi: [10.20944/preprints202508.1176.v2](https://www.preprints.org/manuscript/202508.1176).
